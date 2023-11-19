@@ -3,7 +3,7 @@
 //! A native module is one that provides rune with functions and types through
 //! native Rust-based code.
 
-mod function_meta;
+pub(crate) mod function_meta;
 mod function_traits;
 pub(crate) mod module;
 
